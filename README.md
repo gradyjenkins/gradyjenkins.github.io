@@ -1,3 +1,3 @@
 # gradyjenkins.github.io
 My Website
-gradyjenkins.github.io
+link:gradyjenkins.github.io[site]
