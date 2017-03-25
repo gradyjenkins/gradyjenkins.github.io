@@ -96,7 +96,7 @@ h1 {
     -ms-transition: font-size 2s ease;
     -o-transition: font-size 2s ease;
     transition: font-size 2s ease;
-}
+    }
 
     .poster img {
         visibility: hidden;
