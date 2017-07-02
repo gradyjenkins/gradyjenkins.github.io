@@ -1,56 +1,3 @@
-h1 {
-    cursor: pointer;
-    font-size: 100px;
-}
-.row-2 .stark {
-    color: #cadde1;
-}
-@media screen and (max-width: 480px) {
-    h1 {
-        font-size: 300%;
-    }
-
-    .video-container video {
-        display: none;
-    }
-
-    .poster img {
-        background-size: cover;
-        visibility: visible;
-    }
-}
-@media screen and (min-width: 480px) {
-    h1 {
-    font-size: 500%;
-    -webkit-transition: font-size 2s ease;
-    -moz-transition: font-size 2s ease;
-    -ms-transition: font-size 2s ease;
-    -o-transition: font-size 2s ease;
-    transition: font-size 2s ease;
-    }
-
-    .poster img {
-        visibility: hidden;
-    }
-
-}
-
-@media screen and (max-device-width: 480px) {
-    h1 {
-        font-size: 300%;
-    }
-
-    .video-container video {
-        display: none;
-    }
-
-    .poster img {
-        background-size: cover;
-        visibility: visible;
-    }
-
-}
-
 .homepage-hero-module {
     border-right: none;
     border-left: none;
@@ -122,4 +69,56 @@ h1 {
     top: 0px;
     left: 0px;
     z-index: 1;
+}
+h1 {
+    cursor: pointer;
+    font-size: 100px;
+}
+.row-2 .stark {
+    color: #cadde1;
+}
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 300%;
+    }
+
+    .video-container video {
+        display: none;
+    }
+
+    .poster img {
+        background-size: cover;
+        visibility: visible;
+    }
+}
+@media screen and (min-width: 480px) {
+    h1 {
+    font-size: 500%;
+    -webkit-transition: font-size 2s ease;
+    -moz-transition: font-size 2s ease;
+    -ms-transition: font-size 2s ease;
+    -o-transition: font-size 2s ease;
+    transition: font-size 2s ease;
+    }
+
+    .poster img {
+        visibility: hidden;
+    }
+
+}
+
+@media screen and (max-device-width: 480px) {
+    h1 {
+        font-size: 300%;
+    }
+
+    .video-container video {
+        display: none;
+    }
+
+    .poster img {
+        background-size: cover;
+        visibility: visible;
+    }
+
 }
