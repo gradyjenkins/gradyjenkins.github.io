@@ -74,6 +74,9 @@ h1 {
     cursor: pointer;
     font-size: 100px;
 }
+.row-2 .stark {
+    color: #cadde1;
+}
 @media screen and (max-width: 480px) {
     h1 {
         font-size: 300%;
