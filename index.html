@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1">
     <meta name="author" content="Grady Jenkins">
     <meta name="description" content="Grady Jenkins's online portfolio">
-    <meta name="keywords" content="Portfolio, Developer, Full-Stack, iOS, Web">
+    <meta name="keywords" content="Portfolio, Developer, Full-Stack, iOS, Web, Grady Jenkins">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>grady jenkins</title>
 
@@ -35,23 +35,6 @@
 
 </script>
   </head>
-  <script>
-    $(document).ready(function() {
-      $("#row-1,#row-2,.navigation").hide();
-
-      $("#name").addClass("animated fadeInDown");
-
-      $("#name").click(function() {
-        $(this).css ("font-size", "250%");
-
-        $("h1").css("cursor", "default");
-        $("#row-1").fadeIn(1000);
-        $("#row-2").fadeIn(3000);
-        $(".navigation").fadeIn(4000);
-      });
-    });
-  </script>
-
   <body>
     <div class="homepage-hero-module">
     <div class="video-container">
@@ -66,15 +49,20 @@
         </div>
     </div>
     <div class="container-fluid">
-      <h1 id="name">Grady</h1>
-      <h3 id="row-1">Monmouth | Software Engineering | Mobile Developer</h3>
-      <h3 id="row-2"> New Jersey | <span class="stark">House Stark</span></a></h3>
+      <nav>
+          <ul>
+            <li><a href="/about">About</a></li>
+            <li><a href="/home">Blog</a></li>
+          </ul>
+        </nav>
+      <h1 id="name">grady</h1>
+      <h3 id="row-1">Monmouth Alum | iOS Enthusiast | Software Engineer</h3>
+      <h3 id="row-2">New Jersey</h3>
       <nav>
         <a class="navigation" href="GradyJenkinsResume.pdf" target="_blank"><i class="fa fa-file-text" aria-hidden="true"></i></a>
         <a class="navigation" href="mailto:gjenkins205@gmail.com?Subject=Hi!"><i class="fa fa-envelope" aria-hidden="true"></i></a>
         <a class="navigation" href="https://www.linkedin.com/in/gradyjenkins" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
         <a class="navigation" href="https://github.com/gradyjenkins" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
-        <a class="navigation" href="/about" target="_self"><i class="fa fa-book" aria-hidden="true"></i></a>
       </nav>
     </div>
     </div>
@@ -83,3 +71,4 @@
     <script src="js/scripts.js"></script>
     </body>
 </html>
+
