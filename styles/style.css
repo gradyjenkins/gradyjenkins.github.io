@@ -1,7 +1,9 @@
 body {
     background-image: url("adam-kool-11868.jpg");
-    background-size: 100vw;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% top;
+    background-attachment: fixed;
 }
 .homepage-hero-module {
     border-right: none;
